@@ -1,0 +1,49 @@
+{
+    "projects" : [
+        {
+            "id" : 0,
+            "project_name" : "Random quote generator",
+            "description" : "A radom quote will be generated with a button click",
+            "techonologies" : ["HTML", "CSS", "JAVASCRIPT"],
+            "live_link" : "https://wootangg.github.io/techdegree-01/",
+            "github_link" : "https://github.com/wootangg/Project-1",
+            "image_urls" : ["p-01-m.jpg", "../images/p-01-l.jpg"]
+        },
+        {
+            "id" : 1,
+            "project_name" : "JS Pagination",
+            "description" : "Pagination made only with Javascript",
+            "techonologies" : ["HTML", "CSS", "JAVASCRIPT"],
+            "live_link" : "https://wootangg.github.io/techdegree-02/",
+            "github_link" : "https://github.com/wootangg/Project-2",
+            "image_urls" : ["p-02-m.jpg", "p-02-l.jpg"]
+        },
+        {
+            "id" : 2,
+            "project_name" : "Interactive Form",
+            "description" : "Interactive form with jQuery",
+            "techonologies" : ["HTML", "CSS", "JAVASCRIPT", "JQUERY"],
+            "live_link" : "https://wootangg.github.io/techdegree-03/",
+            "github_link" : "https://github.com/wootangg/Project-3",
+            "image_urls" : ["p-03-m.jpg", "p-03-l.jpg"]
+        },
+        {
+            "id" : 3,
+            "project_name" : "OOP Game",
+            "description" : "Word game created with Object Oriented Programming",
+            "techonologies" : ["HTML", "CSS", "JAVASCRIPT"],
+            "live_link" : "https://wootangg.github.io/techdegree-04/",
+            "github_link" : "https://github.com/wootangg/Project-4",
+            "image_urls" : ["p-04-m.jpg", "p-04-l.jpg"]
+        },
+        {
+            "id" : 4,
+            "project_name" : "Public API Request",
+            "description" : "Random users API Request",
+            "techonologies" : ["HTML", "CSS", "JAVASCRIPT"],
+            "live_link" : "https://wootangg.github.io/techdegree-05/",
+            "github_link" : "https://github.com/wootangg/Project-5",
+            "image_urls" : ["p-05-m.jpg", "p-05-l.jpg"]
+        }
+    ]
+}

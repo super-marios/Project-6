@@ -1,0 +1,22 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+
+      h1 My Treehouse Portfolio created with Node.js and Express framework.
+
+      
+      p.lead.text-light
+        | This my treehouse techdegree projects website. This is built with Node.js with Express framework.
+  article.grid-container.portfolio-index
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+
+      each val in data.projects
+        .cell
+          a(href= `/projects/${val.id}`)
+            img.thumbnail(src= `/static/images/${val.image_urls[0]}`)
+            h5 #{val.project_name}
+
